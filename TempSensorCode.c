@@ -3,7 +3,7 @@
 File name:		TempSensor.c
 Author:			DTsebrii
 Date:			23/APR/2020
-Modified:		None
+Modified:		DTsebrii, 01/22/2021
 Description:	The code for a temperature sensor circuit. Every second
 				new sample is taken, after that the program waits for 
 				collecting first 60 samples and then is calculating 
