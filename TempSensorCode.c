@@ -41,10 +41,10 @@ Description:	The code for a temperature sensor circuit. Every second
 #define ADCMASK	0x83
 #define TENBITS	1024
 #define MAXVOLT	5
-#define MINTEMP 50
-#define MAXTEMP 70
-#define TSLOPE	0.013
-#define TOFFSET	3.029
+#define MINTEMP 100
+#define MAXTEMP 100
+#define TSLOPE	0.025
+#define TOFFSET	2.5
 #define ADCRES	0.0048   // 5/1024
 // Object constant
 #define TEMPCHAN	0x01
